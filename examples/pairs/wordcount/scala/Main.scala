@@ -9,6 +9,6 @@ object Main {
     pairs.foreach(o=>println(o._1 +  " ->" +o._2))
 
 
-  
+
   }
 }
