@@ -1,6 +1,8 @@
 <component name="libraryTable">
   <library name="SBT: commons-net:commons-net:2.2:jar">
-    <CLASSES />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/commons-net/commons-net/jars/commons-net-2.2.jar!/" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>

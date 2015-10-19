@@ -5,6 +5,8 @@ object Main {
     val conf = new SparkConf().setAppName("test").setMaster("local[*]")
     val sc = new SparkContext(conf)
 
-  
+    val values1 = sc.parallelize(Seq(1,3,5,7))
+    val values2 = sc.parallelize(Seq(5,7,9,11))
+    values1.union(values2).collect
   }
 }

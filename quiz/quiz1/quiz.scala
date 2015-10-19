@@ -1,5 +1,3 @@
-
-
 val old_new_salaries = Seq(
     // (old_salary, new_salary)
     (2401, 2507), (2172, 2883), (2463, 2867), (2462, 3325), (2949, 2974),
@@ -12,7 +10,7 @@ def is_high_raise(r: Int) =
     r > 500
 
 val raises = old_new_salaries.map(ss => ss._2 - ss._1)
-val high_raises = ???
-val total_high_raises = high_raises.reduce(???)
+val high_raises = raises.filter(is_high_raise)
+val total_high_raises = high_raises.reduce((a,b) => a+b)
 
 println(s"total high raises: $total_high_raises")

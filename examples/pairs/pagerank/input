@@ -3,8 +3,4 @@ b: a, d
 c: a
 d: f
 e: d
-<<<<<<< HEAD
 f: e, b
-=======
-f: e
->>>>>>> upstream/master

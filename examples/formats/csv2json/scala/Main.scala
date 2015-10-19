@@ -37,7 +37,6 @@ object Main {
     persons.foreach(person=>println(person.animal))
     val pp = persons.filter(per=>true).map(person=>mapper.writeValueAsString(person))
     println(pp.first())
-//    pp.saveAsTextFile("jsonResult")
 
   }
 }
